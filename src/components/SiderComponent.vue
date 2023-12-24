@@ -1,5 +1,5 @@
 <template v-if="navTab == true">
-    <aside class="w-60 flex flex-col h-screen bg-cyan-800 py-4 gap-5 overflow-y-auto">
+    <aside class="w-60 flex flex-col h-screen bg-cyan-800 py-4 gap-5 overflow-y-scroll custom-scroll group hover-wake-scroll">
         <!-- Logo -->
         <a href="https:www.google.com/" class="px-2 select-none">
             <img src="../assets/images/logo-white.png" style="user-drag: none;" />
