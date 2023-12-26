@@ -61,6 +61,13 @@
                 class="font-medium hover:text-black px-2"
                 >Form Input Bindings</router-link
             >
+
+            <router-link
+                :to="{ name: 'LifecycleHooks' }"
+                active-class="font-bold underline bg-cyan-700 text-black"
+                class="font-medium hover:text-black px-2"
+                >Lifecycle Hooks</router-link
+            >
         </div>
     </aside>
 </template>

@@ -44,6 +44,11 @@ const routes = [
         component: () => import("../views/FormInputBindings.vue"),
     },
     {
+        path: "/LifecycleHooks",
+        name: "LifecycleHooks",
+        component: () => import("../views/LifecycleHooks.vue"),
+    },
+    {
         path: "/:pathMatch(.*)*",
         component: () => import("../views/ErrorNotFound.vue")
     },
