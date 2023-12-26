@@ -39,6 +39,11 @@ const routes = [
         component: () => import("../views/EventHandling.vue"),
     },
     {
+        path: "/FormInputBindings",
+        name: "FormInputBindings",
+        component: () => import("../views/FormInputBindings.vue"),
+    },
+    {
         path: "/:pathMatch(.*)*",
         component: () => import("../views/ErrorNotFound.vue")
     },

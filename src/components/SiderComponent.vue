@@ -54,6 +54,13 @@
                 class="font-medium hover:text-black px-2"
                 >Event Handling</router-link
             >
+
+            <router-link
+                :to="{ name: 'FormInputBindings' }"
+                active-class="font-bold underline bg-cyan-700 text-black"
+                class="font-medium hover:text-black px-2"
+                >Form Input Bindings</router-link
+            >
         </div>
     </aside>
 </template>
