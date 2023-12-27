@@ -68,6 +68,13 @@
                 class="font-medium hover:text-black px-2"
                 >Lifecycle Hooks</router-link
             >
+
+            <router-link
+                :to="{ name: 'Watchers' }"
+                active-class="font-bold underline bg-cyan-700 text-black"
+                class="font-medium hover:text-black px-2"
+                >Watchers</router-link
+            >
         </div>
     </aside>
 </template>

@@ -49,6 +49,11 @@ const routes = [
         component: () => import("../views/LifecycleHooks.vue"),
     },
     {
+        path: "/Watchers",
+        name: "Watchers",
+        component: () => import("../views/Watchers.vue"),
+    },
+    {
         path: "/:pathMatch(.*)*",
         component: () => import("../views/ErrorNotFound.vue")
     },
