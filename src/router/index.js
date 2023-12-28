@@ -54,6 +54,11 @@ const routes = [
         component: () => import("../views/Watchers.vue"),
     },
     {
+        path: "/TemplateRefs",
+        name: "TemplateRefs",
+        component: () => import("../views/TemplateRefs.vue"),
+    },
+    {
         path: "/:pathMatch(.*)*",
         component: () => import("../views/ErrorNotFound.vue")
     },
