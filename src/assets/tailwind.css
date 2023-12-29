@@ -14,7 +14,7 @@
 
 @layer components {
     .custom-scroll::-webkit-scrollbar {
-        @apply w-1;
+        @apply w-[5px];
     }
     .custom-scroll::-webkit-scrollbar-track {
         @apply bg-transparent;

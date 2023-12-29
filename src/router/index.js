@@ -59,6 +59,11 @@ const routes = [
         component: () => import("../views/TemplateRefs.vue"),
     },
     {
+        path: "/ComponentsBasics",
+        name: "ComponentsBasics",
+        component: () => import("../views/ComponentsBasics.vue"),
+    },
+    {
         path: "/:pathMatch(.*)*",
         component: () => import("../views/ErrorNotFound.vue")
     },
